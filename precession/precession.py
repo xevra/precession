@@ -5972,7 +5972,7 @@ def remnantspindirection(theta1, theta2, deltaphi, r, q, chi1, chi2):
     
     Examples
     --------
-    ``thetaL = precession.reminantspindirection(theta1,theta2,deltaphi,r,q,chi1,chi2)``
+    ``thetaL = precession.remnantspindirection(theta1,theta2,deltaphi,r,q,chi1,chi2)``
     """
 
     Lvec,S1vec,S2vec = angles_to_Lframe(theta1, theta2, deltaphi, r, q, chi1, chi2)
