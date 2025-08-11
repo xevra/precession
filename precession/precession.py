@@ -5944,7 +5944,7 @@ def remnantspin(theta1, theta2, deltaphi, q, chi1, chi2, which='HBR16_34corr'):
     return np.minimum(chifin,1)
 
 
-def reminantspindirection(theta1, theta2, deltaphi, r, q, chi1, chi2):
+def remnantspindirection(theta1, theta2, deltaphi, r, q, chi1, chi2):
     """
     Angle between the spin of the remnant and the binary angular momentum, assuming that the spins stays in the direction of the total angular momentum 'at plunge'.
     
